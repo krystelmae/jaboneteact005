@@ -7,6 +7,10 @@
 .navbar-nav {
     font-size: 18px;
 }
+.navbar{
+    position: relative;
+   
+}
 /*buttons*/
 .btn:hover{
     transform: scale(1.1);
@@ -17,6 +21,7 @@
     height: 120vh;
     background-color: #cfe0e8;
 }
+
 /*.social-links{
     display: flex;
 }
@@ -51,6 +56,7 @@
     background-color: #cfe0e8;
 }
 
+
 /* skills and progress bar*/
 #skills{
     font-family: 'Poppins', sans-serif;
@@ -73,10 +79,10 @@
 
 /* Project/Card */
 #project{
+    background-color: #cfe0e8;
     font-family: 'Poppins', sans-serif;
     padding: 5rem 0 20rem;
     max-height: 300vh;
-    background-color: #cfe0e8;
 }
 .card{
     transition: all 0.5s ease;
@@ -94,6 +100,18 @@
 #contact{
     font-family: 'Poppins', sans-serif;
     padding: 4.2rem;
-    max-height: 100vh;
+    max-height: 180vh;
     background-color: #cfe0e8;
 }
+.address h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.address p{
+    font-weight: 200;
+}
+.address p:hover{
+    color: #034f84;
+}
+
+
