@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #cfe0e8;
+}
 .navbar-nav {
     font-size: 18px;
 }
@@ -18,10 +21,10 @@
 /* Home section */
 #home{
     font-family: 'Poppins', sans-serif;
-    height: 120vh;
-    background-color: #cfe0e8;
+    padding: 2rem;    
 }
 
+ 
 /*.social-links{
     display: flex;
 }
@@ -52,8 +55,8 @@
 #about{
     font-family: 'Poppins', sans-serif;
     padding: 2rem;
-    max-height: 200vh;
-    background-color: #cfe0e8;
+   
+
 }
 
 
@@ -61,8 +64,8 @@
 #skills{
     font-family: 'Poppins', sans-serif;
     padding: 2rem;
-    max-height: 200vh;
-    background-color: #cfe0e8;
+
+ 
 }
 .progress{
     height: 30px;
@@ -101,7 +104,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 4.2rem;
     max-height: 180vh;
-    background-color: #cfe0e8;
+  
 }
 .address h5{
     font-family: 'Poppins', sans-serif;
